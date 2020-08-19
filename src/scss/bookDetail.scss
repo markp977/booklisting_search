@@ -1,0 +1,31 @@
+.book-detail {
+    &_container{
+        display: flex;
+        width: 44%;
+        flex-wrap: wrap;
+        box-shadow: 2px 2px #cccccc;
+        border: 1px solid #cccccc;
+        border-radius: 5%;
+        margin: 0 2% 5% 2%;
+        padding: 20px;
+        flex-direction: row;
+        &:hover{
+            background-color: #cccccc;
+        }
+    }
+    &_image{
+        width: 120px;
+        img{
+            width: 100%;
+        }
+    }
+    &_content{
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 15px;
+        width: 60%;
+        &--title {
+            font-size: 18px;
+            font-weight: bold;
+        }
+    }
+}
